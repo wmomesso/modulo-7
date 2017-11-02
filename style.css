@@ -1,0 +1,59 @@
+.container{
+	margin:0 auto;
+	width: 1200px;
+	height: 950px;
+	/*startant flex-box*/
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-between;	
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	align-self: center;
+
+}
+
+.box{
+	border: 1px solid;
+}
+
+.logo{
+	width: 250px;
+	height: 200px;
+	line-height: 200px;
+}
+.menu{
+	width: 900px;
+	height: 200px;
+	line-height: 200px;
+}
+
+.titulo{
+	width: 350px;
+	height: 500px;
+}
+
+.chamada{
+	width: 1200px;
+	height: 100px;
+	line-height: 100px
+}
+
+.rodape{
+	width: 1200px;
+	height: 100px;
+	line-height: 100px;
+	line-height: 100px;
+	text-decoration: underline;
+}
+span{
+	font-size: 33px;
+	float: left;
+	margin: 0 30px;
+}
+a{
+	float: right;
+	margin: 0 30px;
+	font-size: 22px;
+	text-decoration: underline;
+}
